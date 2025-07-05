@@ -1,4 +1,6 @@
 <?php
+use Core\Database;
+
 $config = require base_path("config.php");
 $database = new Database($config["database"], "root", "Princo-123");
 

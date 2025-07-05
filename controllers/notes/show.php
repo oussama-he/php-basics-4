@@ -1,5 +1,7 @@
 <?php
 
+use Core\Database;
+
 $currentUser = 3;
 $config = require base_path("config.php");
 $db = new Database($config["database"], "root", "Princo-123");
